@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col{
+    border: 5px solid black;
+    text-align: center;
+    padding: 3rem;
+    cursor: pointer;
+}
+.makeRed{
+    background-color: red;
+}
+.makeYellow{
+    background-color: yellow;
+}
+.makeGreen{
+    background-color: green;
+}
+.row:last-child{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#start{
+    padding: 3% 7%;
+    background-color: purple;
+    color:white;
+    width:30%;
+    border: none;
+    cursor: pointer;
+}
+
